@@ -55,7 +55,7 @@ let heStudent = true/false; //Boolean
 
 //document.write(`Name: ${name} age: ${age} heigt: ${heigt} isMerry: ${isMerry} namber: ${number}`)
 
-let x = 5;
+/*let x = 5;
 let y = 5;
 let sum = x * y;
 console.log(sum);
@@ -66,14 +66,13 @@ console.log(x - y);
 x = 5;
 y = 3;
 sum = 5 / 2;
-console.log(typeof sum)
+console.log(typeof sum)*/
 
 //parseFloat(переменная) // преобразует переменную в тип флоат. 
 
-z = "2.5"
+/*z = "2.5"
 sum = sum + parseFloat(z);
-
-console.log(sum)
+console.log(sum)*/
 
 /*
 let t = "kolya";
@@ -82,7 +81,27 @@ sum = parseFloat(t) + parseFloat(u);
 console.log(sum);
 */
 
-let name = "12.3";
+/*let name = "12.3";
 let result = parseFloat(name);
 console.log(isNaN(result));
-console.log(`Переменная name не содержит цифры - это: ${isNaN(result)}`);
+console.log(`Переменная name не содержит цифры - это: ${isNaN(result)}`);*/
+
+// ДЗ
+// 1)
+console.log("Я в консоли");
+
+// 2)
+let name = "kolya";
+let age;
+let num = 25;
+let num2 = null;
+let isThisOleg = true;
+console.log(`Name: ${name} Age: ${age} IsThisOleg: ${isThisOleg} Number: ${num} Num2: ${num2}`)
+
+// 3)
+
+let initial = 250000;
+let interest = 8 / 100;
+let years = 1;
+let result = Math.round(initial * (1 + interest * years));
+console.log(result);
