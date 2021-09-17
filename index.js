@@ -88,15 +88,15 @@ console.log(`Переменная name не содержит цифры - это
 
 // ДЗ
 // 1)
-console.log("Я в консоли");
+/*console.log("Я в консоли");
 
 // 2)
 let name = "kolya";
 let age;
 let num = 25;
 let num2 = null;
-let isThisOleg = true;
-console.log(`Name: ${name} Age: ${age} IsThisOleg: ${isThisOleg} Number: ${num} Num2: ${num2}`)
+let isOleg = true;
+console.log(`Name: ${name} Age: ${age} IsThisOleg: ${isOleg} Number: ${num} Num2: ${num2}`)
 
 // 3)
 
@@ -104,4 +104,110 @@ let initial = 250000;
 let interest = 8 / 100;
 let years = 1;
 let result = Math.round(initial * (1 + interest * years));
+console.log(result);*/
+
+
+//let b = 2 !== "2";
+//console.log(b);
+
+/*
+let b = 2 > 3 ? "Правильно" : "Не правильно";
+console.log(b)
+
+let x1 = "4";
+let x2 = 2;
+
+
+//+= -= *= /=
+
+
+//parseInt(переменная)
+//parseFloat(переменная)
+
+let y = "5"
+y = parseInt(y);
+y += y
+console.log(y)
+
+//int 123453 1 54 3 2 123 
+//float 31.12 65.23 11.43
+
+let t = "5";
+t = parseFloat(t);
+t += t;
+console.log(t);
+
+
+let result = x1 > x2 ? parseInt(x1) + 2 : x2 - 2;
 console.log(result);
+
+let z = "q";
+let s = isNaN(z)
+console.log(s);
+
+let tmp = 'w';
+let o = isNaN(tmp) ? "не цифра" : "цифра";
+console.log(o);
+
+//document.write()
+let num1 = prompt("Введите число", 0);
+alert("получил число " + num1);
+
+*/
+const users = [{ name: "Dima", age: "25" }, "QWE", false]; //0,1,2
+
+console.log(users)
+console.log(users[0].name);
+
+if (2 > 3) {
+   console.log("Правда")
+}
+else if (1 > 3) {
+   console.log("2")
+}
+else if (5 > 3) {
+   console.log("3")
+}
+else {
+   console.log("Неправда")
+}
+
+//Дима Славик Антон
+
+/*
+let name = prompt("ведите иимя");
+
+if (name === "dima") {
+   console.log("1");
+} else if (name === "kolya") {
+   console.log("2");
+} else if (name === "igor") {
+   console.log("3")
+} else {
+   console.log("Имя не распознано");
+}
+
+*/
+
+
+
+let x = "w";
+switch (x) {
+   case "w": {
+      console.log("первый")
+   }
+   case "s": {
+      console.log("второй")
+      break;
+   }
+   case false: {
+      console.log("3")
+      break;
+   }
+   case 15: {
+      console.log("4")
+      break
+   }
+   default: { console.log("Не найденно ") }
+}
+
