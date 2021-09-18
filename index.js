@@ -96,7 +96,7 @@ let age;
 let num = 25;
 let num2 = null;
 let isOleg = true;
-console.log(`Name: ${name} Age: ${age} IsThisOleg: ${isOleg} Number: ${num} Num2: ${num2}`)
+console.log(`Name: ${name} Age: ${age} IsOleg: ${isOleg} Number: ${num} Num2: ${num2}`)
 
 // 3)
 
@@ -129,7 +129,7 @@ y = parseInt(y);
 y += y
 console.log(y)
 
-//int 123453 1 54 3 2 123 
+//int 123453 1 54 3 2 123
 //float 31.12 65.23 11.43
 
 let t = "5";
@@ -154,7 +154,7 @@ let num1 = prompt("Введите число", 0);
 alert("получил число " + num1);
 
 */
-const users = [{ name: "Dima", age: "25" }, "QWE", false]; //0,1,2
+/*const users = [{ name: "Dima", age: "25" }, "QWE", false]; //0,1,2
 
 console.log(users)
 console.log(users[0].name);
@@ -170,15 +170,15 @@ else if (5 > 3) {
 }
 else {
    console.log("Неправда")
-}
+*/
 
 //Дима Славик Антон
 
-/*
-let name = prompt("ведите иимя");
+
+/*let name = prompt("ведите иимя");
 
 if (name === "dima") {
-   console.log("1");
+   alert("hello");
 } else if (name === "kolya") {
    console.log("2");
 } else if (name === "igor") {
@@ -186,12 +186,12 @@ if (name === "dima") {
 } else {
    console.log("Имя не распознано");
 }
-
 */
 
 
 
-let x = "w";
+
+/*let x = "w";
 switch (x) {
    case "w": {
       console.log("первый")
@@ -210,4 +210,48 @@ switch (x) {
    }
    default: { console.log("Не найденно ") }
 }
+*/
+///ДЗ 
 
+let student = [{ name: "kolya", age: 25 }, { name: "oleg", age: 22 }, { name: "dima", age: 26 }];
+alert(student.map(e => `Name: ${e.name}, Age: ${e.age}`).join("\n"));
+
+let a = prompt("Ведите первое число:");
+let b = prompt("Ведите второе число:");
+let c = prompt("выбрать способ: 1-додати, 2-відняти, 3-помножити, 4-поділити.");
+
+if (c == 1) {
+   alert(+a + +b);
+} else if (c == 2) {
+   alert(a - b);
+} else if (c == 3) {
+   alert(a * b);
+} else if (c == 4) {
+   alert(a / b);
+} else {
+   alert("error")
+}
+
+let a = prompt("Ведите первое число:");
+let b = prompt("Ведите второе число:");
+let c = prompt("выбрать способ: 1-додати, 2-відняти, 3-помножити, 4-поділити.");
+
+switch (c) {
+   case "1": {
+      alert(+a + +b);
+      break;
+   }
+   case "2": {
+      alert(a - b);
+      break;
+   }
+   case "3": {
+      alert(a * b);
+      break;
+   }
+   case "4": {
+      alert(a / b);
+      break;
+   }
+   default: alert("error");
+}
