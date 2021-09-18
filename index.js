@@ -15,10 +15,6 @@ const z = 2;
 //let t = "Dima";
 //let name = "dima"; 
 
-//let @name;
-//let name%s;
-//let 2name;
-
 //let dep_in_my_bank;
 //let depInMyBank;
 
