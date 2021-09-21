@@ -209,6 +209,7 @@ switch (x) {
 */
 ///ДЗ 
 
+/*
 let student = [{ name: "kolya", age: 25 }, { name: "oleg", age: 22 }, { name: "dima", age: 26 }];
 alert(student.map(e => `Name: ${e.name}, Age: ${e.age}`).join("\n"));
 
@@ -251,3 +252,96 @@ switch (c) {
    }
    default: alert("error");
 }
+
+*/
+//for for in, for of, while, do while
+
+/*
+for (let i = 0; i < 5; i++) {
+   console.log(i);
+   //1
+   //2
+   //3
+   //4
+}
+
+let prices = [2, 1, 4];
+prices[3] = 5;
+prices[4] = "q";
+console.log(prices);
+*/
+//Создать массив на 10 элементов. Заполнить его числами от 0 до 10 возведенными в квадрат.
+
+// 0 - создать массив
+// 1 - создать цикл на проходов
+// 2 - записывать в массив числа от 0 до 10
+// 3 - возвести числа в квадрат
+
+/*
+let x = [];
+
+for (let i = 0; i < 20; i++) {
+   x[i] = count;
+   count += 2;
+}
+
+console.log(x);
+
+//console.log(x);
+*/
+
+/*
+for (let i = 1; i <= 15; i++) {
+   if (i === 10) {
+      //break; Остановить
+      //continue; Пропускает цикл 1
+   }
+   console.log(i);
+}
+*/
+
+//let students = [{ Name: "Dima", age: 15 }, { Name: "Misha", age: 15 }];
+//alert(`Name: ${students[1].Name} age: ${students[1].age}`);
+
+
+/*
+let student = { Name: "Dima", age: 15, student: false };
+for (s in student) {
+   console.log(student[s]);
+}
+*/
+
+/*
+let word = "hello";
+for (s of word) {
+   console.log(s + s);
+}
+*/
+
+/*
+let arr = [4, 1, 2, 35, 62];
+
+for (n of arr) {
+   console.log(n ** 2);
+}
+*/
+/*
+let i = 5;
+let y = 8;
+while (false) {
+   console.log(i);
+   i++;
+}
+*/
+
+/*
+let n = 0;
+do {
+   console.log(n);
+   n++;
+} while (n < 0)
+*/
+
+// Создать массив на лету из 3 объектов (студентов), данные вводит пользователь
+// Вывести всех студентов по одному
+// Вывести средний возраст студентов
