@@ -297,8 +297,8 @@ for (let i = 1; i <= 15; i++) {
       //continue; Пропускает цикл 1
    }
    console.log(i);
-}
-*/
+}*/
+
 
 //let students = [{ Name: "Dima", age: 15 }, { Name: "Misha", age: 15 }];
 //alert(`Name: ${students[1].Name} age: ${students[1].age}`);
@@ -345,3 +345,30 @@ do {
 // Создать массив на лету из 3 объектов (студентов), данные вводит пользователь
 // Вывести всех студентов по одному
 // Вывести средний возраст студентов
+
+//дз 1)
+
+/*let num = [];
+for (let i = 5; i < 15; i++) {
+   num[i] = i ** 3;
+   console.log(num);
+}*/
+
+//дз 2)
+
+/*let y = [];
+for (let i = 2; i < 10; i += 2) {
+   y[i] = i - 1;
+   console.log(y);
+}*/
+
+//дз 4)
+/*
+let str = "Пользователь вводит строчку";
+str = str.slice(0, 7) + str.slice(8);
+console.log(str);
+*/
+
+//дз 3)
+
+let student = [{ name: "kolya", age: 18 }, { name: "oleg", age: 22 }, { name: "dima", age: 23 }];
