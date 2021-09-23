@@ -348,27 +348,54 @@ do {
 
 //дз 1)
 
-/*let num = [];
+let num = [];
 for (let i = 5; i < 15; i++) {
    num[i] = i ** 3;
    console.log(num);
-}*/
+}
 
 //дз 2)
 
-/*let y = [];
+let y = [];
 for (let i = 2; i < 10; i += 2) {
    y[i] = i - 1;
    console.log(y);
-}*/
+}
+
+for (let w = 0; w < 10; w++) {
+   if (w % 2 == 0) continue;
+   console.log(w);
+}
+
 
 //дз 4)
-/*
-let str = "Пользователь вводит строчку";
-str = str.slice(0, 7) + str.slice(8);
-console.log(str);
-*/
+
+let word = prompt("Введите слово");
+for (s of word) {
+   if (s === "а") continue;
+   console.log(s);
+}
 
 //дз 3)
 
-let student = [{ name: "kolya", age: 18 }, { name: "oleg", age: 22 }, { name: "dima", age: 23 }];
+let nameStudents = [];
+let ageStudents = [];
+for (let i = 0; i < 3; i++) {
+   nameStudents[i] = prompt('Введите любое имя', +i);
+   ageStudents[i] = prompt('Введите возраст', +i);
+}
+console.log(nameStudents);
+console.log(ageStudents);
+
+for (let name of nameStudents) {
+   console.log(name);
+}
+
+let ageSum = 0;
+for (let a = 0; a < ageStudents.length; a++) {
+   ageSum += parseFloat(ageStudents[a]);
+   if (ageStudents) {
+      sum = ageSum / ageStudents.length;
+   }
+}
+console.log(sum);
